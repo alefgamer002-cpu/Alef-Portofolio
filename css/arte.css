@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #534e4e;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+
+.hero-section {
+    padding: 60px 0;
+    background-color: #534e4e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text h1 {
+    color: #ff6600;
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.hero-img-container img:first-child {
+    width: 100%;
+    max-width: 340px;
+    border-radius: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 80px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: 0.3s;
+    background: #582b2b00;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+.social-icons img:hover {
+    transform: scale(2.2);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.principal {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 15%;
+}
+
+
+footer {
+    background-color: rgb(255, 123, 0);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.card-servico{
+ background: rgb(68, 67, 67);
+    padding: 2em;
+    margin-top: 1em;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.card-servico:hover {
+    transform: scale(1.03);
+    background-color: rgba(0, 0, 0, 0.493);
+}
+@media (max-width: 768px) {
+
+    .hero-text {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .hero-img-container img:first-child {
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .principal {
+        text-align: center;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .conteudo {
+        padding: 1em;
+        border-radius: 10px;
+    }
+
+    .txt-icone {
+        font-size: 150%;
+    }
+}
+.about-section {
+    background-color: #8181811c;
+    padding: 60px 10px;
+    color: white;
+    border-radius: 30px;
+}
+
+.titulo-sobre {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.img-sobre {
+    width: 220%;
+    max-width: 270px;
+}
+
+.texto-sobre {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.rodape {
+    background-color: #413d3d8f;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.instagram img {
+    width: 22px;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    color: #cfcfcf;
+    font-size: 13px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.icon {
+    font-size: 14px;
+    opacity: 0.7;
+}
